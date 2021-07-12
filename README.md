@@ -37,6 +37,8 @@ Python codes for robotics algorithm.
       * [Grid based search](#grid-based-search)
          * [Dijkstra algorithm](#dijkstra-algorithm)
          * [A* algorithm](#a-algorithm)
+         * [D* algorithm](#d-algorithm)
+         * [D* Lite algorithm](#d-lite-algorithm)
          * [Potential Field algorithm](#potential-field-algorithm)
          * [Grid based coverage path planning](#grid-based-coverage-path-planning)
       * [State Lattice Planning](#state-lattice-planning)
@@ -300,6 +302,31 @@ This is a 2D grid based the shortest path planning with A star algorithm.
 In the animation, cyan points are searched nodes.
 
 Its heuristic is 2D Euclid distance.
+
+### D\* algorithm
+
+This is a 2D grid based the shortest path planning with D star algorithm.
+
+![figure at master · nirnayroy/intelligentrobotics](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/DStar/animation.gif)
+
+The animation shows a robot finding its path avoiding an obstacle using the D* search algorithm.
+
+Ref:
+
+- [D* Algorithm Wikipedia](https://en.wikipedia.org/wiki/D*)
+
+### D\* Lite algorithm
+
+This algorithm finds the shortest path between two points while rerouting when obstacles are discovered. It has been implemented here for a 2D grid.
+
+![D* Lite](https://github.com/AtsushiSakai/PythonRoboticsGifs/raw/master/PathPlanning/DStarLite/animation.gif)
+
+The animation shows a robot finding its path and rerouting to avoid obstacles as they are discovered using the D* Lite search algorithm.
+
+Refs:
+
+- [D* Lite](http://idm-lab.org/bib/abstracts/papers/aaai02b.pd)
+- [Improved Fast Replanning for Robot Navigation in Unknown Terrain](http://www.cs.cmu.edu/~maxim/files/dlite_icra02.pdf)
 
 ### Potential Field algorithm
 
