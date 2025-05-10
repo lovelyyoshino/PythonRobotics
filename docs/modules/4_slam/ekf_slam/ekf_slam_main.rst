@@ -21,6 +21,12 @@ This is a simulation of EKF SLAM.
 -  Blue line: ground truth
 -  Red line: EKF SLAM position estimation
 
+Code Link
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. autofunction:: SLAM.EKFSLAM.ekf_slam.ekf_slam
+
+
 Introduction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -578,7 +584,7 @@ reckoning and control functions are passed along here as well.
 
 .. image:: ekf_slam_1_0.png
 
-References:
+Reference
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - `PROBABILISTIC ROBOTICS <http://www.probabilistic-robotics.org/>`_
